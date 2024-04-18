@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(48, 205, 55);
+}
+.boxes p{
+    width: 900px;
+    height: 500px;
+    color: white;
+    text-align: center;
+}
+    .red-box{
+    background-color: rgb(9, 106, 12);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: block;
+    float: left;
+}
+.white-box{
+    background-color: wheat;
+    width: 640px;
+    height: 200px;
+    margin: 10px;
+    display: block;
+    clear:both ;
+    margin: 10px;
+    display: block;
+    border: 10px solid red;
+}
+.box-shadow{box-shadow: 10px 10px 50px black;
+}

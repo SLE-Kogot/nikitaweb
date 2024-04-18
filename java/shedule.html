@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расписание</title>
+    <!-- <script src="script.js"></script> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload='digitalWatch()' >
+    <header id="headerв">
+        <h1>Расписание уроков на неделю</h1>
+        <div class="dateTime">
+            <div id="date"></div>
+            <div id="timer">kkkkkk</div>   
+        </div>  
+    </header>
+    <div class="wrapper">
+        <div class="day" id="monday-div" onmouseover="mouseIn()" onmouseout="mouseOut()">
+            <h2 id="monday">Понедельник</h2>
+            <ol>
+                <li>Математика</li>
+                <li>Литература</li>
+                <li>Русский язык</li>
+                <li>Физика</li>
+            </ol>
+        </div>
+        <div class="day" id="tuesday-div">
+            <h2 id="tuesday">Вторник</h2>
+            <ol>
+                <li>Физкультура</li>
+                <li>Литература</li>
+                <li>Английский язык</li>
+                <li>Физика</li>
+            </ol>
+        </div>
+        <div class="day" id="wednesday-div">
+            <h2 id="wednesday">Среда</h2>
+            <ol>
+                <li>Информатика</li>
+                <li>Биология</li>
+                <li>Русский язык</li>
+                <li>Математика</li>
+            </ol>
+        </div>
+        <div class="day" id="thursday-div">
+            <h2 id="thursday" >Четверг</h2>
+            <ol>
+                <li>Татарский язык</li>
+                <li>ОБЖ</li>
+                <li>Русский язык</li>
+                <li id="FIZ">Физика</li>
+            </ol>
+        </div>
+        <div class="day" id="friday-div">
+            <h2 id="friday">Пятница</h2>
+            <ol>
+                <li>Математика</li>
+                <li>Химия</li>
+                <li>Русский язык</li>
+                <li>Биология</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="button-wrapper">
+        <div class="button">
+            <button type="button" id="header-color">Цвет фона страницы</button>
+        </div>
+        <div class="button">
+            <button type="button" id="tuesday-but">Cубота</button>
+        </div>
+        <div class="button">
+            <button type="button" id="button2">Удалить субботу</button>
+        </div>
+        <div class="button">
+            <button type="button" id="text">Урок</button>
+        </div>
+        <div class="button">
+            <button type="button" id="button3">Дни</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- <script src="Ntest.JS"></script> -->
+</body>
+</html>

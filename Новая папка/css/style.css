@@ -1,0 +1,18 @@
+ canvas {
+    background-color: chartreuse;
+    margin: 0 auto;
+    display: block;
+    border: 10px,solid,black ;
+ }
+
+ div {
+    background-color: chartreuse;
+    display: flex;
+    margin: 0 auto;
+    width: 600px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+
+
+ }

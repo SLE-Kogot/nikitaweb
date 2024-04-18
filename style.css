@@ -1,0 +1,29 @@
+.boxes p{
+    color: azure;
+    text-align: center;
+}
+.red-box{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.green-box{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.yellow-box{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.blue-box{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+body{background-color: gold;}
